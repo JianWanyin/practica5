@@ -1,0 +1,34 @@
+name: ticatac_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Añadir la dependencia de Provider para la gestión del estado
+  provider: "^6.1.2"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Si deseas agregar imágenes o fuentes personalizadas, descomenta estas secciones y ajusta:
+  # assets:
+  #   - assets/images/
+  #
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
